@@ -1,0 +1,21 @@
+text,label
+"Miller, A. T. (2017). Natural language processing basics. MIT Press, Cambridge, MA.",1
+"Wilson, E. B., & Taylor, R. M. (2019). Evaluating transformer models for reference detection. ACL Workshop on Text Classification, 56-72.",1
+"Fischer, S., & Gomez, A. M. (2020). Transfer learning for reference detection in academic papers. Journal of Digital Libraries, 21(3), 201-218.",1
+"Harris, T. M., & Jackson, R. J. (2022). Combining rule-based and neural methods for reference classification. Computational Linguistics, 48(3), 678-709.",1
+CPU环境下的模型推理速度约为每条文本0.5秒，能够满足小规模批量处理的需求。,0
+"郑十, 孙十一. (2018). 深度学习在参考文献抽取中的应用[J]. 模式识别与人工智能, 31(10), 901-912.",1
+普通文本和参考文献的核心区别在于是否包含标准化的引用格式和学术来源信息。,0
+数据划分采用了8:2的比例，80%作为训练集，20%作为测试集，随机种子设置为42。,0
+"Li, M., & 王二三. (2020). Multilingual reference detection with XLM-RoBERTa[J]. 中国科学:信息科学, 50(7), 1023-1045.",1
+今天我整理了实验数据，发现参考文献样本的标注准确率还有提升的空间。,0
+本次实验使用的硬件环境为Intel i7-12700H CPU，内存32GB，操作系统为Windows 11。,0
+"Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., ... & Amodei, D. (2020). Language models are few-shot learners. Advances in Neural Information Processing Systems, 33, 1877-1901.",1
+"欧阳十七, 薛十八. (2019). 跨语言参考文献识别的XLM模型优化[C]//国际自然语言处理大会论文集. 上海: 上海交通大学出版社, 2019: 789-801.",1
+Hugging Face的transformers库提供了丰富的预训练模型，方便开发者快速搭建NLP应用。,0
+本实验对比了XLM-RoBERTa-base和XLM-RoBERTa-small两个版本，发现small版本在CPU上速度提升3倍。,0
+模型的分类头设计越简单，在CPU上的运行速度越快，但可能会损失一定的准确率。,0
+标注数据集时，需要严格区分参考文献和普通正文，确保标签的准确性。,0
+为了验证模型的有效性，我们对比了随机森林、逻辑回归等传统机器学习方法的结果。,0
+"Olson, S., & Patel, N. (2020). A survey of reference extraction methods in academic texts. ACM Computing Surveys, 53(4), 1-38.",1
+"Thomas, C. J., & Harris, P. L. (2021). Multilingual reference extraction from academic texts. IEEE Transactions on Knowledge and Data Engineering, 34(5), 2310-2322.",1
